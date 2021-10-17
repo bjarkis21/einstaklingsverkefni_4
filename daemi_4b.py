@@ -15,7 +15,7 @@ SPECIALS = "!#$%&*"
 NUMBERS = "012"
 
 def get_all():
-    '''Creates a list of all possible strings og length 6 that are made of LETTERS, SPECIALS and/or NUMBERS'''
+    '''Creates a list of all possible strings of length 6 that are made of LETTERS, SPECIALS and/or NUMBERS'''
     all_set = set()
 
     LSN = LETTERS + SPECIALS + NUMBERS
