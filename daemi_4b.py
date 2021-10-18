@@ -16,6 +16,8 @@ NUMBERS = "012"
 
 def get_all():
     '''Creates a list of all possible strings of length 6 that are made of LETTERS, SPECIALS and/or NUMBERS'''
+    
+    #Setjum upp í mengi (set) svo ekki geti orðið tvítalningar
     all_set = set()
 
     LSN = LETTERS + SPECIALS + NUMBERS
